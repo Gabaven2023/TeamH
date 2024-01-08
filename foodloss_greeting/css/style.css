@@ -6,8 +6,9 @@
 ---------------------------------------------------------------------------*/
 @import url("https://unpkg.com/sanitize.css");
 
-
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+/*Font Awesomeの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 /*slick.cssの読み込み
 ---------------------------------------------------------------------------*/
@@ -27,22 +28,22 @@
 ---------------------------------------------------------------------------*/
 html,body {
 	height: 100%;
-	font-size: 18px;	/*基準となるフォントサイズ。*/
+	font-size: 13px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:900px) {
 
 	html, body {
-		font-size: 20px;	/*基準となるフォントサイズ。*/
+		font-size: 16px;	/*基準となるフォントサイズ。*/
 	}
 
 	}/*追加指定ここまで*/
 
 
 body {
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
+	font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	-webkit-text-size-adjust: none;
 	background: #fdfdfb;	/*背景色*/
 	color: #999;		/*文字色*/
 	line-height: 2.5;		/*行間*/
@@ -124,7 +125,7 @@ header {
 
 /*ロゴ*/
 #logo img {
-	width: 600px;	/*ロゴの幅*/
+	width: 300px;	/*ロゴの幅*/
 }
 
 
@@ -148,7 +149,7 @@ header {
 #menubar a {
 	text-decoration: none;display: block;
 	color: inherit;
-	padding: 0.3rem 0.3rem;		/*上下、左右へのメニュー内の余白*/
+	padding: 0.7rem 0.5rem;		/*上下、左右へのメニュー内の余白*/
 }
 
 /*マウスオン時*/
@@ -204,44 +205,22 @@ ul.slick-dots li.slick-active button {
 ---------------------------------------------------------------------------*/
 /*mainブロック*/
 main {
-	padding: 1%;	/*ブロック内の余白*/
-}
-
-main p {
-	font-size: 1.0rem;
-	text-align: center;	
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-	letter-spacing: 0.1em;	/*文字間隔を広くする指定*/
-	color: #555;/*文字色。css冒頭で指定しているテーマカラーを読み込みます*/
-
-}
-main h1 {
-	font-size: 1.5rem;	
-	text-align: center;	
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-	letter-spacing: 0.1em;	/*文字間隔を広くする指定*/
-	color: #555;/*文字色。css冒頭で指定しているテーマカラーを読み込みます*/
+	padding: 5%;	/*ブロック内の余白*/
 }
 
 /*mainブロック内のh2*/
 main h2 {
-	font-size: 	1.8rem;		/*文字サイズ*/
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.8rem;		/*文字サイズ*/
 	text-align: center;		/*テキストをセンタリング*/
-	letter-spacing: 0.1em;	/*文字間隔を広くする指定*/
+	letter-spacing: 0.2em;	/*文字間隔を広くする指定*/
 	color: var(--primary-color);	/*文字色。css冒頭で指定しているテーマカラーを読み込みます*/
 }
 
 /*mainブロック内のh3*/
 main h3 {
-	font-size: 1.6rem;		/*文字サイズ*/
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
+	font-size: 1.4rem;		/*文字サイズ*/
 	text-align: center;		/*テキストをセンタリング*/
-	letter-spacing: 0.05em;	/*文字間隔を広くする指定*/
+	letter-spacing: 0.2em;	/*文字間隔を広くする指定*/
 }
 
 /**mainブロック内のpタグ*/
@@ -390,28 +369,6 @@ footer .pr {display: block;}
 	line-height: 60px;	/*高さ*/
 	border-radius: 50%;	/*円形にする*/
 }
-/*フォーム*/
-<style>
-　　
-  .contact-form {
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 13px;
-	text-align: center;	
-  }
-  .contact-form .item {
-    display: block;
-    overflow: hidden;
-    margin-bottom: 10px;
-	text-align: center;	
-  }
-  .contact-form .item.no-label {
-    padding: 5px 0px 5px 60px;
-	text-align: center;
-	}
-
-</style>
-
 
 
 /*その他
