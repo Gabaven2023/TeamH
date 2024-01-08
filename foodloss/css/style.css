@@ -390,6 +390,28 @@ footer .pr {display: block;}
 	line-height: 60px;	/*高さ*/
 	border-radius: 50%;	/*円形にする*/
 }
+/*フォーム*/
+<style>
+　　
+  .contact-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+	text-align: center;	
+  }
+  .contact-form .item {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+	text-align: center;	
+  }
+  .contact-form .item.no-label {
+    padding: 5px 0px 5px 60px;
+	text-align: center;
+	}
+
+</style>
+
 
 
 /*その他
