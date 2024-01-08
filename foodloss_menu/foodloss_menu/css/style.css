@@ -35,7 +35,7 @@ html,body {
 	@media screen and (min-width:900px) {
 
 	html, body {
-		font-size: 16px;	/*基準となるフォントサイズ。*/
+		font-size: 18px;	/*基準となるフォントサイズ。*/
 	}
 
 	}/*追加指定ここまで*/
@@ -205,8 +205,10 @@ ul.slick-dots li.slick-active button {
 ---------------------------------------------------------------------------*/
 /*mainブロック*/
 main {
-	padding: 5%;	/*ブロック内の余白*/
+	padding: 3%;	/*ブロック内の余白*/
 }
+
+	
 
 /*mainブロック内のh2*/
 main h2 {
@@ -218,7 +220,7 @@ main h2 {
 
 /*mainブロック内のh3*/
 main h3 {
-	font-size: 1.4rem;		/*文字サイズ*/
+	font-size: 1.2rem;		/*文字サイズ*/
 	text-align: center;		/*テキストをセンタリング*/
 	letter-spacing: 0.2em;	/*文字間隔を広くする指定*/
 }
@@ -291,7 +293,7 @@ footer .pr {display: block;}
 /*ボックス内のp*/
 .list-simple p {
 	margin: 0;
-	font-size: 0.85rem;	/*文字サイズを85%に*/
+	font-size: 1.0rem;	/*文字サイズを85%に*/
 	line-height: 1.5;
 }
 
