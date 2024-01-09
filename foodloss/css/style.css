@@ -148,7 +148,7 @@ header {
 #menubar a {
 	text-decoration: none;display: block;
 	color: inherit;
-	padding: 0.3rem 0.3rem;		/*上下、左右へのメニュー内の余白*/
+	padding: 0.7rem 0.5rem;		/*上下、左右へのメニュー内の余白*/
 }
 
 /*マウスオン時*/
@@ -204,7 +204,7 @@ ul.slick-dots li.slick-active button {
 ---------------------------------------------------------------------------*/
 /*mainブロック*/
 main {
-	padding: 1%;	/*ブロック内の余白*/
+	padding: 5%;	/*ブロック内の余白*/
 }
 
 main p {
