@@ -137,8 +137,8 @@ header {
 	margin-bottom: 3rem;			/*下に空けるスペース。３文字分。*/
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-around;	/*並びかたの種類の指定*/
-	border-top: 1px solid #ddd;		/*上の線の幅、線種、色*/
-	border-bottom: 1px solid #ddd;	/*下の線の幅、線種、色*/
+	border-top: 1px solid #050000;		/*上の線の幅、線種、色*/
+	border-bottom: 1px solid #080000;	/*下の線の幅、線種、色*/
 }
 
 /*メニュー１個あたりの設定*/
