@@ -1,0 +1,16 @@
+diff a/foodloss/FoodorDie/greeting.html b/foodloss/FoodorDie/greeting.html	(rejected hunks)
+@@ -54,8 +54,12 @@
+ <p>1.メニュー画面の見つけるボタンをクリック<br></p> 
+ <div class="mb30"><img src="images/使い方1.png"style="display:block;margin:auto;"></div>
+ <p>↓<br>
+-2.<br>
+-↓<br>
++2.気になる店舗を選択
++<div class="mb30"><img src="images/使い方2.png"style="display:block;margin:auto;"></div>
++<p>↓</br> 
++3．残っているお得商品をチェック
++<div class="mb30"><img src="images/使い方3..png"style="display:block;margin:auto;"></div>
++<p>↓<br>
+ 3.チェックしたお目当ての商品を店舗でゲット!</p>
+ 
+ </section>
