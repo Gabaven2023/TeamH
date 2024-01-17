@@ -15,11 +15,10 @@
 
 
 
-/*テーマカラーの定義（CSS変数）
-ここのカラーコードを変更するだけで、テンプレートのテーマカラーが変わります。
+/*テーマカラー
 ---------------------------------------------------------------------------*/
 :root {
-    --primary-color: #add4dc;
+    --primary-color: #2c71e0;
 }
 
 
@@ -27,17 +26,17 @@
 ---------------------------------------------------------------------------*/
 html,body {
 	height: 100%;
-	font-size: 18px;	/*基準となるフォントサイズ。*/
+	font-size: 18px;　
 }
 
 	/*画面幅900px以上の追加指定*/
 	@media screen and (min-width:900px) {
 
 	html, body {
-		font-size: 20px;	/*基準となるフォントサイズ。*/
+		font-size: 20px;	/*基本のフォントサイズ。*/
 	}
 
-	}/*追加指定ここまで*/
+	}
 
 
 body {
@@ -114,28 +113,25 @@ a:hover {
 }
 
 
-/*header（ロゴが入った最上段のブロック）
+/*header
 ---------------------------------------------------------------------------*/
-/*ヘッダーブロック*/
 header {
-	padding: 3rem 0;	/*上下、左右へのヘッダー内の余白。remというのは文字単位の事。3remは3文字分。*/
-	text-align: center;	/*内容をセンタリング*/
+	padding: 3rem 0;	
+	text-align: center;	
 }
 
 /*ロゴ*/
 #logo img {
-	width: 600px;	/*ロゴの幅*/
+	width: 600px;	
 }
 
 
-/*メニューブロック設定
----------------------------------------------------------------------------*/
 /*メニューブロック*/
 #menubar ul {
 	margin: 0;padding: 0;
-	margin-bottom: 3rem;			/*下に空けるスペース。３文字分。*/
-	display: flex;					/*flexボックスを使う指定*/
-	justify-content: space-around;	/*並びかたの種類の指定*/
+	margin-bottom: 3rem;			
+	display: flex;					
+	justify-content: space-around;	
 	border-top: 1px solid #ddd;		/*上の線の幅、線種、色*/
 	border-bottom: 1px solid #ddd;	/*下の線の幅、線種、色*/
 }
@@ -158,12 +154,6 @@ header {
 }
 
 
-/*スライドショー（slickを使用）
----------------------------------------------------------------------------*/
-/*画像を囲むブロック*/
-.mainimg-slick {
-	margin-bottom: 80px;	/*画像の下に空けるスペース*/
-}
 
 /*丸いページナビボタン全体を囲むブロック*/
 ul.slick-dots {
